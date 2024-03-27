@@ -1,0 +1,270 @@
+/* body and all */
+*{
+        font-family: "Short Stack", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2vmax !important; 
+}
+body{
+    background-color: #F8D1E0;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+/* section */
+section{
+    background-color: #F7F9FE;
+    width: 90%;
+    height:fit-content;
+    border-radius: 20px;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 1% 2%;
+    box-sizing: border-box;
+}
+h1{
+ width: 95%;
+ height: 50px;
+ border-radius: 45px;
+ background-color: #FE6784;
+ border: 3.31px dashed  #FFAEBE;
+ margin: 0% auto;
+ color: white;
+ font-size: 35px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.blueBanner{
+    background-color: #25A3A1;
+    width:96%;
+    height:fit-content;
+    border-radius: 5px;
+    border: 3px dashed  #A4FDFB;
+    margin: 0% auto;
+}
+#ban1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#cloud{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   justify-content: center;
+   margin-top: 2%;
+}
+
+.list{
+    background-color: #FE6784;
+    padding: 0.2% 2%;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 0px 2px #0000006e;
+    border:none;
+}
+#cinner{
+  background-image: url(./image/Isolation\ Mode.png);
+  background-size: cover;
+  height: 5.5em;
+  
+}
+
+
+
+/* headear */
+#Banner{
+    display: flex;
+    width: 90%;
+    margin-top: 0.5%;
+}
+#logo{
+    width: 160px;
+    height: 91.02px;
+    rotate: -17.1deg;
+}
+
+
+
+/* footer */
+#footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2%;
+}
+.iconArea{
+    width:40.73px;
+    height: 40.73px;
+    border-radius: 45px ;
+    border: 2px solid white ;
+    background-color: #CD3F97 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* float items */
+
+ 
+#float1{
+
+    position: absolute;
+    top: 121px;
+    left:4px ;
+    z-index: -1;
+}
+
+
+ 
+#float2{
+
+    position: absolute;
+    top: 50%;
+    left:35px ;
+    transform: translate(-50% , 0%);
+    z-index: -1;
+}
+#float3{
+     
+    position: absolute;
+    bottom: 9%;
+    left:35px ;
+    transform: translate(-50% , 0%);
+    z-index: -1;
+}
+
+#float4{
+
+    position: absolute;
+    top: 121px;
+    right:4px ;
+    z-index: -1;
+}
+
+
+ 
+#float5{
+
+    position: absolute;
+    top: 50%;
+    right:0.2px;
+    transform: translate(-50% , 0%);
+    z-index: -1;
+}
+#float6{
+     
+    position: absolute;
+    bottom: 9%;
+    right:20px
+    ;
+    transform: translate(-50% , 0%);
+    z-index: -1;
+}
+
+
+#area{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#float7{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+#float8{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    rotate:180deg
+}
+#imageContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 40em;
+}
+.divitems{
+    width: fit-content;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed black;
+}
+#guess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 0% auto;
+}
+
+input{
+    height: 1em;
+    border: 2px dashed #CCCCCC
+    ;
+}
+input:focus{
+    border: 2px dashed #CCCCCC
+
+}
+
+#close{
+   
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+
+#modal{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+   
+}
+#modalSect{
+    width: 95%;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.514);
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    border-radius: 15px;
+    color: whitesmoke;
+    display: none;
+    
+   
+}
+#guess2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    text-align: center;
+}
+#guess2 h2,#guess2 h3,#guess2 p{
+  
+    font-size: 1.8vmax !important;
+}
